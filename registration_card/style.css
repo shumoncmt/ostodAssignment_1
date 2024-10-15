@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(0.25turn, #3f87a6, #8cbd68, #ca8a45);
+}
+.card{
+    margin:auto;
+    width: 50%;
+    height: 600px;
+    margin-top: 70px;
+    background-color: rgb(233, 236, 238) ;
+    border-radius: 5%;
+    border-color: 3px solid green;
+}
+h2{
+    text-align: center;
+    padding-top: 10px;
+}
+.form{
+    
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    text-align: left !important;
+}
+input{
+    border: 1px solid rgb(201, 176, 176);
+    border-radius: 5%;
+    margin-top: 30px;
+    text-align: left !important;
+}
