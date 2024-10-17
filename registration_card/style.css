@@ -8,7 +8,7 @@ h2{
 .container{
     margin:auto;
     width: 40%;
-    height: 600px;
+    height: 350px;
     margin-top: 70px;
     background-color: rgb(233, 236, 238) ;
     border-radius: 5%;
@@ -27,10 +27,11 @@ h2{
     table{
         font-family: Calibri; 
         color:black; 
-        font-size: 11pt; 
+        font-size: 21px; 
         font-style: normal;
         font-weight: bold;
         border-collapse: collapse; 
+        padding: 20px;
         
       }
       table.inner{
@@ -38,10 +39,27 @@ h2{
       }
 td{
     text-align: left;
-    font-size: 20px;
+
+    
 }
 
+.button{
+    background: linear-gradient(0.25turn, #3f87a6, #8cbd68, #ca8a45);
+ width: 100px;
+ height: 40px;
+ border: 2px solid rgb(184, 157, 157);
+ border-radius: 10%;
+ font-size: large;
 
+}
+.reset{
+    background: linear-gradient(0.25turn, #3f87a6, #8cbd68, #ca8a45);
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgb(100, 79, 79);
+    border-radius: 10%;
+    font-size: large;
+}
 
 
  
