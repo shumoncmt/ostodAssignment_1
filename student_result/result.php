@@ -1,9 +1,11 @@
 <?php
-$bangla = 33;
+$bangla = -0;
 $english = 33;
 $math = 33;
 $socialSeance = 33;
 $chemistry = 33;
+
+$allSubject array= ($bangla, $english, $math, $socialSeance, $chemistry);
 
 
 $argv = ($bangla+$chemistry+$english+$math+$socialSeance)/5;
@@ -12,6 +14,14 @@ $argv = ($bangla+$chemistry+$english+$math+$socialSeance)/5;
 echo "All Subject Average Mark $argv" ;
 echo "\n";
 
+switch($a){
+    case ($bangla >= 0 && $bangla <= 100):
+        break;
+
+        default:
+        echo "Average Grade fails";   
+
+};
 
 
 switch($argv){
