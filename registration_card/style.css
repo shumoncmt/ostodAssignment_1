@@ -8,7 +8,7 @@ h2{
 .container{
     margin:auto;
     width: 50%;
-    height: 500px;
+    height: 300px;
     margin-top: 70px;
     background-color: rgb(233, 236, 238) ;
     border-radius: 2%;
@@ -27,7 +27,7 @@ h2{
     table{
         font-family: Calibri; 
         color:black; 
-        font-size: 21px; 
+        font-size: 15px; 
         font-style: normal;
         font-weight: bold;
         border-collapse: collapse; 
